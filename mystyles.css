@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Navbar {
+    background-color:#800000;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    border-bottom: 0.15cm solid rgb(255, 255, 255);
+  }
+  
+  /* Style the links inside the navigation bar */
+  .Navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right:50px;
+    word-spacing: normal;
+    font-family: 'Poppins', sans-serif;
+    
+   
+  }
+  
+  /* Change the color of links on hover */
+  .Navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    width: auto;
+  }
+  .activepage {
+    background-color: rgba(255, 255, 0, 0.467);
+    color: white;
+}
+  
+.body1 {
+  width: 100%;
+  height: 80vh;
+  background-image: url(usantbackground.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.textbox {
+color: #f5f5dc;
+position:  absolute;
+margin-top: 20px;
+margin-left: 380px;
+
+}
+.textbox h1 {
+  font-size: 50px;
+  line-height: 40px;
+  color: white ;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  border: 0.1001cm solid;
+  border-color:rgb(252, 248, 248);
+  text-align: center;
+
+}
+
+ 
+.body2 {
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 0.5cm solid;
+  border-bottom: 0.5cm solid;
+  border-color:maroon;
+  padding: 50px;
+  display:block;
+}
+
+.title_logo{
+  font-family: 'Roboto Slab', serif;
+  font-size: large;
+  color:#f2f2f2
+  
+}
+#align-left {
+  position:absolute;
+  left: 7%;
+}
+
+#align-left1 {
+  position:absolute;
+  left: 3%;
+}
+.Mission {
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.missioncontent {
+  font-size: 17px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.Vision {
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.visioncontent {
+  font-size: 17px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.footer1 {
+  width: 100%;
+  height: 22vh;
+  display:inline-block;
+  background-color:#800000 ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:white;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:white;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+/*Second Webpage (Facilities)*/
+.fcbody1 {
+  width: 100%;
+  height: 100vh;
+  background-color: coral;
+}
+nav {
+  background-color:#800000;
+ width: 100%;
+}
+
+
+.about {
+  color: ghostwhite;
+  font-size: 21px;
+  text-align: left;
+  margin-left: 200px;
+
+}
